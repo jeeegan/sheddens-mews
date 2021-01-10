@@ -8,7 +8,7 @@ const Contact = props => (
           method="POST"
           name="contact-form"
           data-netlify="true"
-        
+          action="/thanks"
         >
           <div className="field half first">
             <label htmlFor="name">Name</label>
