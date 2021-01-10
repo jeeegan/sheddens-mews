@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "Sheddens Mews - Serviced Office Space",
+    description: "Luxury serviced offices in Clarkston, Glasgow"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
