@@ -1,6 +1,6 @@
 import React from 'react'
 
-handleSubmit = (e) => {
+const handleSubmit = (e) => {
     e.preventDefault()
     const form = e.target
     fetch('/', {
@@ -19,7 +19,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="POST" name="contact-form" data-netlify="true" onSubmit={this.handleSubmit}>
+                <form method="POST" name="contact-form" data-netlify="true" onSubmit={handleSubmit}>
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" required/>
